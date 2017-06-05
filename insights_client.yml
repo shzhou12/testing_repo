@@ -1,0 +1,13 @@
+- name: Install the latest version of redhat-access-insights
+  hosts: all
+  tasks:
+	- name: Install the latest version of redhat-access-insights
+  	yum:
+    	name: redhat-access-insights
+    	state: latest
+- name: redhat-access-insights registration
+  hosts: all
+  tasks:
+	- name: redhat-access-insights registration
+  	command: /usr/bin/redhat-access-insights --register
+
