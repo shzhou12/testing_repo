@@ -1,0 +1,5 @@
+- name: dhclient
+  hosts: all
+  tasks:
+    - name: dhclient cmd 
+      command: dhclient enp0s3
