@@ -1,0 +1,7 @@
+- name: Same as above but subscribe to a specific pool by ID.
+  redhat_subscription:
+    state: present
+    username: shzhou@redhat.com
+    password: 3loveJesus
+    pool_ids: 8a85f9833e1404a9013e3cddf95a0599
+
