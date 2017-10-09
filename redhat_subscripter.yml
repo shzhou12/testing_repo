@@ -2,6 +2,6 @@
   redhat_subscription:
     state: present
     username: shzhou@redhat.com
-    password: 3loveJesus
+    password: 3lJ
     pool_ids: 8a85f9833e1404a9013e3cddf95a0599
 
